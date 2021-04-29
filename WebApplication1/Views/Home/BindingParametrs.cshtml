@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "ManualBindingInParameters";
+}
+
+<h2>ManualBindingInParameters</h2>
+<form method="post" action="~/Home/BinP">
+    <div>
+        <input name="first" style="width:300px;"/>
+    </div>
+    <div>
+        <select name="operations">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+    </div>
+    <div>
+        <input name="second" style="width:300px;"/>
+    </div>
+    <div>
+        <input type="submit" class="btn btn-secondary" />
+    </div>
+
+</form>
